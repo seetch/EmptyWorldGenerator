@@ -1,0 +1,9 @@
+name: EmptyWorldGenerator
+version: '1.0.0'
+main: me.seetch.emptyworld.EmptyWorldPlugin
+api-version: '1.20'
+authors: [ seetch ]
+
+worldgen:
+  generators:
+    EMPTY: me.seetch.emptyworld.generator.EmptyWorldGenerator
